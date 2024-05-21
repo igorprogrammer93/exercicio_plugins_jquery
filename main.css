@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+html {
+    overflow-x: hidden;
+}
+
+.container {
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header, footer{
+    background-color: #000000f3;
+    padding-top: 16px;
+    color: #ffffffd7;
+
+}
+h2{
+    font-size: 24px;
+    margin-bottom: 8px;
+    font-style: italic;
+}
+
+header{
+    margin-bottom: 80px;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+header > .container,
+footer > .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 16px;
+}
+
+.container-flex {
+    display:flex;
+}
+
+button {
+    margin-bottom: 240px;
+    display:block;
+    width: 100%;
+    padding: 8px 0;
+    border: none;
+    background-color: #114797;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    font-style: italic;
+    cursor: pointer;
+    border-radius: 6px;
+}
+button:hover{
+    color: #0000009f;
+}
+
+.form-campo {
+    margin-bottom: 32px;
+}
+
+.form-campo label{
+    font-weight: bold;
+    display: block;
+}
+
+.form-campo input, 
+.form-campo textarea {
+    width: 100%;
+    display: block;
+    padding: 16px;
+}
+
+.form-campo textarea{
+    resize: none;
+    height: 120px;
+}
+
+form{
+    max-width: 360px;
+}
+
+form button{
+    max-width: 120px;
+}
+
+footer li{
+    list-style: none;
+    margin-left: 16px;
+}
+
+footer li img{
+    height: 32px;
+
+}
